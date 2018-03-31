@@ -1,0 +1,28 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "family chat app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon serverjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjrules/chat-app-MEAN.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "TJ Stubbs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjrules/chat-app-MEAN/issues"
+  },
+  "homepage": "https://github.com/tjrules/chat-app-MEAN#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.0"
+  }
+}
