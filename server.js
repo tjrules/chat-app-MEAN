@@ -6,7 +6,7 @@ const io = require('socket.io')(http)
 
 // displays index.html file on root of localhost
 app.get('/', (req, res) => {
-res.sendFile(__dirname + '/index.html');
+res.sendFile(__dirname + './client/views/index.html');
 });
 
 io.on('connection', socket => {
@@ -22,4 +22,3 @@ io.on('connection', socket => {
 app.listen(PORT, () => {
   console.log(`here we come on PORT ${PORT}`);
 });
- 
